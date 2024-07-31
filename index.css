@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    margin: auto auto;
+    width: 800px;
+    height: 300px;
+    padding: 50px;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#title{
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+#box{
+    background-color: #080001;
+    border-radius: 10px;
+}
+#scoreHome , #scoreGuest{
+    color: #F94F6D;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 40px;
+}
+
+#add-points{
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-points button{
+    border:1px solid #9AABD8;
+    background: none;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 15px;
+    border-radius: 2px;
+    color: #9AABD8;
+    text-align: center;
+}
+
+#add-points button:hover{
+    background-color: #b0bbda;
+    color: white;
+}
